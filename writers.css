@@ -1,0 +1,23 @@
+:root {
+    --brown: #3f2828;
+    --light: #FFFFFF;
+    --dark: #585858;
+}
+
+.header {
+    color: var(--light);
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira sans', sans-serif;
+}
+
+nav {
+    background-color: var(--dark);
+    padding: 16px 30px;
+    border-bottom: 3px solid var(--brown);
+}
